@@ -1,0 +1,219 @@
+.footer
+{
+    height: auto;
+}
+.back_to_top
+{
+    width: 100%;
+    padding: 15px;
+    background-color: #37475A;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.back_to_top:hover
+{
+   opacity: 0.9;
+}
+
+.footer_upper_content
+{
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    min-height: 500px;
+    background-color: #1c2838;
+    color: #fff;
+}
+
+.footer_upper_content_wrapper
+{
+    width: 75%;
+    margin: 0px auto;    display: flex;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.footer_colums
+{
+    width: 25%;
+    color: #fff;
+}
+
+.list_category
+{
+    margin-bottom: 30px;
+}
+
+.footer_colums_list
+{
+    width: 65%;
+    color: #fff;
+    margin: 0px 0px 10px 0px;
+    list-style: none;
+    font-size: 14px;
+}
+.footer_colums a
+{
+    text-decoration: none;
+}
+
+.footer_colums a:hover
+{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.money_currency
+{
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid #ccc;
+    background-color: #1c2838;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency_wrapper
+{
+    width: 35%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.footer-logo{
+   width: 100px;
+   margin: 10px 10px 0px 0px;
+}
+
+.footer_language_bar
+{
+    width: auto;
+    padding: 5px 4px;
+    border: 1px solid rgb(226, 225, 225);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.money_exchange
+{
+   
+    width: auto;
+    padding: 8px;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 4px;
+}
+
+.country_flags
+{
+    width: auto;
+    padding: 4px 8px;
+    border: 1px solid rgb(226, 225, 225);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+.country_flags img 
+{
+    width: 25px;
+    margin-right: 5px;
+}
+
+
+.footer_bottom_content
+{
+    width: 100%;
+    height: 500px;
+    background-color: #131921;
+}
+
+.footer_bottom_wrapper
+{
+    width: 75%;
+    height: 500px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom_footer_rows
+{
+    width: 90px;
+    height: 450px;
+}
+
+.bottom_footer_rows ul li 
+{
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: rgb(226, 225, 225);
+    list-style: none;
+}
+
+.bottom_footer_rows ul a
+{
+    text-decoration: none;   
+}
+
+.bottom_footer_rows ul a:hover
+{
+    text-decoration: underline;
+    color: rgb(226, 225, 225);
+}
+
+@media screen and (max-width: 1040px){
+    .footer_upper_content, .footer_bottom_content
+    {
+        display: none;
+    }
+    .currency_wrapper{
+      width: 45%;
+    }
+}
+
+@media screen and (max-width: 872px){
+    .currency_wrapper{
+        width: 60%;
+      }
+}
+
+@media screen and (max-width: 712px){
+    .currency_wrapper{
+        width: 70%;
+      }
+}
+@media screen and (max-width: 612px){
+    .currency_wrapper{
+        width: 80%;
+      }
+      .footer-logo{
+          width: 60px;
+      }
+      .country_flags{
+          display: none;
+      }
+}
+
+@media screen and (max-width: 324px){
+    .currency_wrapper{
+        width: 100%;
+      }
+}
+@media screen and (max-width: 258px){
+    .footer_language_bar, .money_exchange{
+        display: none;
+    }
+}
+
+
+

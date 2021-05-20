@@ -1,0 +1,9 @@
+
+
+@media screen and (max-width: 930px) {
+    .product_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}

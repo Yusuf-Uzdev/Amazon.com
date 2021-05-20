@@ -1,0 +1,9 @@
+.Bottom_content
+{
+    width: 94.5%;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}

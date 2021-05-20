@@ -1,0 +1,113 @@
+.discover
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1450px; */
+    margin: 20px auto;
+     
+}
+.discover_wrapper
+{
+    width: 94.5%;
+    margin: 0px auto;
+    padding: 20px 10px;
+    /* border: 1px solid black; */
+    background-color: #fff;
+   overflow: hidden;
+    z-index: 2;
+  
+}
+
+.discover_amzon_title
+{
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+
+}
+
+.discover_amzon_title a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: rgb(92, 138, 225);
+}
+
+.discover_amzon_title a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.discover_amzon_title h3 {
+    font-weight: 500;
+}
+
+.discover_amazon_carousel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.discover_amazon_carousel ul
+{
+    width: 100%;
+    margin: 0px 0px -5px 0px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 5px;
+    
+}
+
+.discover_amazon_carousel ul li{
+    list-style: none;
+   
+}
+
+
+.prev_btn
+{
+    height: 95px;
+    width: 45px;
+    position: absolute;
+    z-index: 5;
+    /* position: relative; */
+    left: 35px;
+    background-color: #fff;
+    opacity: 0.4;
+    box-shadow: 0 1px 10px #888;
+    border: none;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* outline: 2px solid rgb(92, 138, 225); */
+}
+
+.next_btn
+{
+    height: 100px;
+    width: 45px;
+    height: 95px;
+    width: 45px;
+    z-index: 5;
+    position: absolute;
+    right: 35px;
+    background-color: #fff;
+    opacity: 0.4;
+    box-shadow: 0 1px 10px #888;
+    border: none;
+    display: none;
+
+}
+.prev_btn:active
+{
+    outline: 2px solid rgb(92, 138, 225);
+}
+
+
+.next_btn:active
+{
+    outline: 2px solid rgb(92, 138, 225);
+}
