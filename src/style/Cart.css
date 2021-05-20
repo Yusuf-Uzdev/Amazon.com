@@ -22,7 +22,7 @@
         width: 100%;
         height: auto;
         display: flex;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         min-width: 1000px;
         margin: auto;
     }
@@ -177,18 +177,4 @@
        width: 250px;
        /* border: 1px solid black; */
    }
-/* 
-    @media screen and (max-width: 1166px) {
-       .selected_items_wrapper{
-           width: 90%;
-          
-       }
-   } 
-
-   @media screen and (max-width: 1166px) {
-    .selected_items_wrapper{
-        width: 90%;
-       
-    }
-} */
 
