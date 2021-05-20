@@ -176,8 +176,12 @@
     /* border: 1px solid red; */
     background-color: #1c2838;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    color: #fff;
+}
+.contact_me a {
     color: #fff;
 }
 #telegram{

@@ -204,7 +204,8 @@ const Footer = () => {
                 
             </div>
                   <div className="contact_me">
-                   <h3>Contact me </h3>  <TelegramIcon id="telegram"/>
+                  <h3>Contact me </h3>  <a href="https://t.me/Myu7699"> <TelegramIcon id="telegram"/></a>
+                   
                   </div>
         </div>
     )
