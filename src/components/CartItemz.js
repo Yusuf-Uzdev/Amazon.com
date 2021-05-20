@@ -14,6 +14,7 @@ const CartItemz = ({id,title, image, cost, color}) => {
             
         });
     }
+    console.log(basket)
     
     return (
      <div>  

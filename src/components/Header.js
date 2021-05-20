@@ -3,7 +3,7 @@ import '../style/Header.css';
 import '../style/Responsive.css'
 import lang from '../assets/us.svg'
 import cart from '../assets/cart.svg'
-import Nav_shop from '../components/Nav_shop'
+import Navshop from './Navshop'
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import ReorderIcon from '@material-ui/icons/Reorder';
@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 import { useStateValue } from "../StateProvider";
 
 function Header() {
-    const [basket, dispatch] = useStateValue(); 
+    const [basket] = useStateValue(); 
     const[user] = useStateValue(); 
     console.log(user)  
     const [showUp, setshowUp] = useState(false);
@@ -162,7 +162,7 @@ function Header() {
                 <Link to="/login" className="signLink">
                 <div className="sign_in_out" onMouseEnter={showSignInPart} onMouseLeave={hideSignInPart}>
                     <div className="sign">
-                        <span>Hello, {user?. user?.user?.user ? user?.user?.user?.user?.email : "Sign in"}</span>
+                        <span>Hello,{user?. user?.user?.user? user?.user?.user?.user?.email: "Sign in"}</span>
                         <h4>Account&Lists</h4>
                     </div>
                     <ArrowDropDownIcon style={{color: 'gray'}}/>
@@ -201,7 +201,7 @@ function Header() {
                     </div>
         </div>
 
-            <Nav_shop/>
+            <Navshop/>
      
         </div> 
         

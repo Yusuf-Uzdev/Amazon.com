@@ -3,7 +3,7 @@ import '../style/Responsive.css'
 import { useStateValue } from "../StateProvider";
 
 function Item({id,title, image, cost, color}) {
-    const[basket,dispatch]=useStateValue();
+    const[basket, dispatch]=useStateValue();
     const addToCart = (e) => {
         dispatch({
             type: "Add_to_Cart",
@@ -16,6 +16,7 @@ function Item({id,title, image, cost, color}) {
             }
         });
     }
+    console.log(basket);
     return (
         <div>
              <div className="image_div_title">

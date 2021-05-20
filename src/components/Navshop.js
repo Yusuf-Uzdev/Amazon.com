@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import '../style/Nav_shop.css';
 import '../style/Responsive.css'
 import { Link } from 'react-router-dom'
 import lang from '../assets/us.svg'
-import cart from '../assets/cart.svg'
+// import cart from '../assets/cart.svg'
 import MenuIcon from '@material-ui/icons/Menu';
 import ClearIcon from '@material-ui/icons/Clear';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
@@ -17,15 +17,17 @@ import { useStateValue } from "../StateProvider";
 
 
 function Nav_shop() {
-    const [basket, dispatch] = useStateValue(); 
+    // const [basket, dispatch] = useStateValue(); 
     const[user] = useStateValue(); 
     //  let id = null
     const openNav =(e) => {
-        const openNav = document.getElementById("myNav").style.display = "flex";
+        const openNav = document.getElementById("myNav")
+        openNav.style.display = "flex";
         
         document.body.style.overflow = "hidden";
 
-        const animate = document.querySelector('.nav_menu_content').animate([
+        const animat = document.querySelector('.nav_menu_content')
+        animat.animate([
             { transform: 'translateX(-400px)' },
             { transform: 'translateX(0px)' }
         ],{
@@ -54,16 +56,19 @@ function Nav_shop() {
            document.body.style.overflow = "scroll"
     });
     const exitNav =(e) => {
-        const exitNav = document.getElementById("myNav").style.display = "none";
+        const exitNav = document.getElementById("myNav")
+        exitNav.style.display = "none";
        
         document.body.style.overflow ="scroll"
     }
 
 
     const right_nav_menu =(e) => {
-        const myu = document.querySelector('.red').style.display = "block";
+        const myu = document.querySelector('.red')
+        myu.style.display = "block";
         // myu.classList.add("red")
-        const animate = document.querySelector('.red').animate([
+        const animate = document.querySelector('.red')
+        animate.animate([
             { transform: 'translateX(300px)' },
             { transform: 'translateX(100px)' },
             { transform: 'translateX(0px)' }
@@ -76,9 +81,11 @@ function Nav_shop() {
     }
 
     const exit_music_nav =(e) => {
-        const exit = document.querySelector('.red').style.display = "none";
+        const exit = document.querySelector('.red')
+        exit.style.display = "none";
         // myu.classList.add("red")
-        const animate = document.querySelector('.nav_menu_content_items').animate([
+        const animate = document.querySelector('.nav_menu_content_items')
+        animate.animate([
             { transform: 'translateX(-300px)' },
             { transform: 'translateX(-100px)' },
             { transform: 'translateX(0px)' }
@@ -143,30 +150,38 @@ function Nav_shop() {
 
 
     const seeAllclick = (e) => {
-        const seeAllnone = document.querySelector('.seeAllclose').style.display = "none";
-        const seeAllshow = document.querySelector('.seeAllset').style.display = "block"
+        const seeAllnone = document.querySelector('.seeAllclose')
+        seeAllnone.style.display = "none";
+        const seeAllshow = document.querySelector('.seeAllset')
+        seeAllshow.style.display = "block"
     }
 
     
     const Seelessclick = (e) => {
         // console.log("done")
-        const seeLessnone = document.querySelector('.seeAllset').style.display = "none";
-        const seeLesshow = document.querySelector('.seeAllclose').style.display = "flex"
+        const seeLessnone = document.querySelector('.seeAllset')
+        seeLessnone.style.display = "none";
+        const seeLesshow = document.querySelector('.seeAllclose')
+        seeLesshow.style.display = "flex"
         // const seeAllsetclose = document.querySelector('.seeAllset').style.display = "none"
     }
 
 
     
     const seeAllclick2 = (e) => {
-        const seeAllnone = document.querySelector('.seeAllclose2').style.display = "none";
-        const seeAllshow = document.querySelector('.seeAllset2').style.display = "block"
+        const seeAllnone = document.querySelector('.seeAllclose2')
+        seeAllnone.style.display = "none";
+        const seeAllshow = document.querySelector('.seeAllset2')
+        seeAllshow.style.display = "block"
     }
 
     
     const Seelessclick2 = (e) => {
         // console.log("done")
-        const seeLessnone = document.querySelector('.seeAllset2').style.display = "none";
-        const seeLesshow = document.querySelector('.seeAllclose2').style.display = "flex"
+        const seeLessnone = document.querySelector('.seeAllset2')
+        seeLessnone.style.display = "none";
+        const seeLesshow = document.querySelector('.seeAllclose2')
+        seeLesshow.style.display = "flex"
         // const seeAllsetclose = document.querySelector('.seeAllset').style.display = "none"
     }
 
@@ -224,7 +239,7 @@ function Nav_shop() {
 
                 <div className="nav_menu_header_container">
                      <AccountCircleIcon id="nav_menu_header_profile-icon"/>
-                      <h2>Hello,  {user?. user?.user?.user ? user?.user?.user?.user?.email : "Sign in"}</h2>
+                      <h2>Hello, {user?. user?.user?.user ? user?.user?.user?.user?.email : "Sign in"}</h2>
                 </div>
 
             </div>

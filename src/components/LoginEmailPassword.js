@@ -4,7 +4,7 @@ import '../style/Responsive.css'
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import { useStateValue } from "../StateProvider";
-import {auth, provider} from "../firebase";
+import {auth} from "../firebase";
 import { Link, useHistory } from "react-router-dom"
 
 function LoginEmailPassword() {
@@ -28,6 +28,7 @@ function LoginEmailPassword() {
        .catch(err => alert(err.message));
         e.preventDefault();
     }
+    console.log(user)
 
     const createAcoountwithEmail = (e) => {
         auth.createUserWithEmailAndPassword(email, password)

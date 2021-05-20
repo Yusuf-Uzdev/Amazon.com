@@ -41,19 +41,22 @@ const DiscoverAmazon = () => {
     
   
    let prev_click = () => {
-       let prev_click = document.querySelector('.prev_btn');
-       const animate =document.querySelector('.ulListImg').animate([
+    //    let prev_click = document.querySelector('.prev_btn');
+       const animation =document.querySelector('.ulListImg')
+       animation.animate([
         { transform: 'translateX(70px)' }
     ],{
         duration: 400,
     })
 
     }
+    
 
 
     let next_click = () => {
-        let prev_click = document.querySelector('.next_btn');
-        const animate =document.querySelector('.ulListImg').animate([
+        // let prev_click = document.querySelector('.next_btn');
+        const animat =document.querySelector('.ulListImg')
+        animat.animate([
          { transform: 'translateX(-70px)' }
      ],{
          duration: 400,
