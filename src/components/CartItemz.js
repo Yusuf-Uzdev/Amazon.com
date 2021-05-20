@@ -23,7 +23,7 @@ const CartItemz = ({id,title, image, cost, color}) => {
           
              <div className="selected_items">
                    <div className="item_image">
-                       <img src ={image}/>
+                       <img alt="img" src ={image}/>
                    </div>
           
                    <div className="item_info_wrapper">

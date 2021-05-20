@@ -12,7 +12,7 @@ import {getBasketSubtotal} from '../reducer'
 
 
 const Cart = ({allBasketItems}) => {
-    const [basket, dispatch] = useStateValue();
+    const [basket] = useStateValue();
 
     // const [basket, dispatch] = useStateValue([]);
     // const removeFromBasket = (e) => {

@@ -2,7 +2,6 @@ import React from 'react'
 import '../style/AddCart.css'
 import '../style/Responsive.css'
 import Header from '../components/Header' 
-import { Link } from 'react-router-dom'
 import Item from './Item'
 
 const AddCart = ({data}) => {

@@ -4,9 +4,8 @@ import '../style/Responsive.css'
 import { Link } from 'react-router-dom'
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
-import transitions, { duration } from '@material-ui/core/styles/transitions';
 
-const Discover_Amzon = () => {
+const DiscoverAmazon = () => {
 
     const [showUp, carouselShowup] = useState(false);
 
@@ -113,4 +112,4 @@ const Discover_Amzon = () => {
     )
 }
 
-export default Discover_Amzon
+export default DiscoverAmazon

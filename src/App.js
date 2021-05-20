@@ -1,12 +1,12 @@
 
 import './App.css';
-import Login from './components/Login'
+// import Login from './components/Login'
 import Header from './components/Header'
 
 import Banner from './components/Banner'
 import Content from './components/Content'
-import Discover_Amazon from './components/Discover_Amzon'
-import Bottm_Content from './components/Bottm_Content'
+import DiscoverAmazon from './components/DiscoverAmazon'
+// import Bottm_Content from './components/Bottm_Content'
 import Cart from './components/Cart'
 import AddCart from './components/AddCart'
 import Footer from './components/Footer'
@@ -88,31 +88,31 @@ function App() {
 
   ]
 
-  const BottomContentImage =
- [
-  {
-    id: 0,
-    title : "Get fit at home",
-    image : "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg"
- },
+//   const BottomContentImage =
+//  [
+//   {
+//     id: 0,
+//     title : "Get fit at home",
+//     image : "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg"
+//  },
 
- {     
-    id: 1,
-    title : "Computers and Accessories",
-    image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
- },
+//  {     
+//     id: 1,
+//     title : "Computers and Accessories",
+//     image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
+//  },
 
- {     
-    id: 2,
-    title : "AmazonBasics",
-    image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
- },
- {     
-  id: 3,
-  title : "AmazonBasics",
-  image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_WomenFashion_Sweatshirt_Quad_Cat_1x._SY116_CB418609101_.jpg"
- }
- ]
+//  {     
+//     id: 2,
+//     title : "AmazonBasics",
+//     image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+//  },
+//  {     
+//   id: 3,
+//   title : "AmazonBasics",
+//   image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_WomenFashion_Sweatshirt_Quad_Cat_1x._SY116_CB418609101_.jpg"
+//  }
+//  ]
 
 const AddtoCart =
 [
@@ -131,7 +131,7 @@ const AddtoCart =
 }
 ]
 
-  const user = null;
+  // const user = null;
 
   return (
     <Router>
@@ -154,7 +154,7 @@ const AddtoCart =
            {/* <Nav_shop/> */}
            <Banner all={bannerImages}/>
           <Content data={contentImage}/>  
-          <Discover_Amazon/>    
+          <DiscoverAmazon/>    
           {/* <Bottm_Content data={BottomContentImage}/> */}
           <Footer/>
           </Route>

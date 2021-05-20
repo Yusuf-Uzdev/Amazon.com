@@ -8,7 +8,7 @@ import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 function Banner({all}) {
     const [img, setImg ] = useState(0);
     const prev = (e) => {
-        const imageBanner = document.querySelector('.banner_image');
+        // const imageBanner = document.querySelector('.banner_image');
         if(img === 0){
             setImg(4)
         }
@@ -23,7 +23,7 @@ function Banner({all}) {
     }
 
     const next = (e) => {
-        const imageBanner = document.querySelector('.banner_image');
+        // const imageBanner = document.querySelector('.banner_image');
         if(img === 4){
             setImg(0);
         }
