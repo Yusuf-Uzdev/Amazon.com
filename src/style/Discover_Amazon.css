@@ -5,6 +5,7 @@
     flex-direction: column;
     /* max-width: 1450px; */
     margin: 20px auto;
+    
      
 }
 .discover_wrapper
@@ -16,7 +17,7 @@
     background-color: #fff;
    overflow: hidden;
     z-index: 2;
-  
+   
 }
 
 .discover_amzon_title
@@ -44,8 +45,10 @@
 .discover_amazon_carousel
 {
     display: flex;
+  
     align-items: center;
     justify-content: center;
+ 
 
     
 }
@@ -55,6 +58,7 @@
     width: 100%;
     margin: 0px 0px -5px 0px;
      display: flex;
+   
     align-items: center;
     justify-content: space-between;
     margin: 0px 5px;
@@ -66,6 +70,11 @@
    
 }
 
+@media screen and (max-width: 1270px){
+    .discover{
+        display: none;
+    }
+}
 
 .prev_btn
 {

@@ -171,49 +171,16 @@
     color: rgb(226, 225, 225);
 }
 
-@media screen and (max-width: 1040px){
-    .footer_upper_content, .footer_bottom_content
-    {
-        display: none;
-    }
-    .currency_wrapper{
-      width: 45%;
-    }
+.contact_me
+{
+    /* border: 1px solid red; */
+    background-color: #1c2838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
-
-@media screen and (max-width: 872px){
-    .currency_wrapper{
-        width: 60%;
-      }
+#telegram{
+    width: 60px;
+    font-size: 40px;
 }
-
-@media screen and (max-width: 712px){
-    .currency_wrapper{
-        width: 70%;
-      }
-}
-@media screen and (max-width: 612px){
-    .currency_wrapper{
-        width: 80%;
-      }
-      .footer-logo{
-          width: 60px;
-      }
-      .country_flags{
-          display: none;
-      }
-}
-
-@media screen and (max-width: 324px){
-    .currency_wrapper{
-        width: 100%;
-      }
-}
-@media screen and (max-width: 258px){
-    .footer_language_bar, .money_exchange{
-        display: none;
-    }
-}
-
-
-

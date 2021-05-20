@@ -4,6 +4,7 @@ import '../style/Responsive.css'
 import { Link } from 'react-router-dom'
 import lang from '../assets/us.svg'
 import LanguageIcon from '@material-ui/icons/Language';
+import TelegramIcon from '@material-ui/icons/Telegram';
 import { BackTop } from 'antd';
 
 // const handleClick = (event) => {
@@ -198,9 +199,13 @@ const Footer = () => {
                                <Link> <li><h5>AmazonSecond Chance </h5> <p>Pass it on, trade it in, give it a second life</p></li></Link>
                              </ul>
                          </div>
+                         
                     </div>
+                
             </div>
-
+                  <div className="contact_me">
+                   <h3>Contact me </h3>  <TelegramIcon id="telegram"/>
+                  </div>
         </div>
     )
 }

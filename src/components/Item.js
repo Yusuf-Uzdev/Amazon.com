@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/Responsive.css'
+import '../style/Item.css'
 import { useStateValue } from "../StateProvider";
 
 function Item({id,title, image, cost, color}) {
@@ -18,16 +18,18 @@ function Item({id,title, image, cost, color}) {
     }
     console.log(basket);
     return (
-        <div>
-             <div className="image_div_title">
-                          <h3>{title}</h3>
-                          <p>{cost}</p>
-            </div>
-
-                  <div className="content_images_div">
-                            <img className="content_images" src={image} alt=""  />
+        <div className="item">
+              <div className="item_wrapper">
+                   <div className="item_images_div">
+                            <img className="item_images" src={image} alt=""  />
                    </div>
-           <button onClick={addToCart}>addto cart</button>
+                    <div className="item_div_title">
+                          <h3>{title}</h3>
+                          <h2>${cost}</h2>
+                          <button onClick={addToCart}>Add to cart</button>
+                   </div>                  
+                 
+              </div>
         </div>
     )
 }

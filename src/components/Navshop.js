@@ -252,37 +252,37 @@ function Nav_shop() {
                         
                         </li>
          
-                        <li className="nav_list"><p>Kindle E-readers & Books  </p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Kindle E-readers & Books  </p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Appstore for Android</p>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Appstore for Android</p>
                         <ChevronRightIcon/> </li>
          
                         <li className="line"></li>
          
                         <li className="nav_menu_content_item_name "><h4>Shop By Department</h4></li>
          
-                        <li className="nav_list"><p>Electroncs</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Electronics</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Computers</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Computers</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Smart Home</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Smart Home</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Arts & Crafts</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Arts & Crafts</p> <ChevronRightIcon/></li>
          
                              <li className="nav_list seeAllclose"  onClick={seeAllclick} ><p>See All</p> <ExpandMoreIcon/> </li>
                                <div className="seeAllset">
 
-                                   <li className="nav_list"><p>Automative</p> <ChevronRightIcon/></li>
+                                   <li className="nav_list" onClick={right_nav_menu}><p>Automative</p> <ChevronRightIcon/></li>
                                    
-                                   <li className="nav_list"><p>Baby</p> <ChevronRightIcon/></li>
+                                   <li className="nav_list" onClick={right_nav_menu}><p>Baby</p> <ChevronRightIcon/></li>
                    
-                                   <li className="nav_list"><p>Beauty and Personal Care</p> <ChevronRightIcon/></li>
+                                   <li className="nav_list" onClick={right_nav_menu}><p>Beauty and Personal Care</p> <ChevronRightIcon/></li>
 
-                                   <li className="nav_list"><p>Women's Fashion</p> <ChevronRightIcon/></li>
-                                   
-                                   <li className="nav_list"><p>Men's Fashion</p> <ChevronRightIcon/></li>
-                   
-                                   <li className="nav_list"><p>Luggage</p> <ChevronRightIcon/></li>
+                                   <li className="nav_list" ><p>Women's Fashion</p> <ChevronRightIcon/></li>
+                                    
+                                   <li className="nav_list" ><p>Men's Fashion</p> <ChevronRightIcon/></li>
+                    
+                                   <li className="nav_list" ><p>Luggage</p> <ChevronRightIcon/></li>
 
                                    <li className="nav_list seeAllLess" onClick={Seelessclick} ><p>See Less</p> <ExpandLessIcon/> </li>
                                    
@@ -292,13 +292,13 @@ function Nav_shop() {
          
                         <li className="nav_menu_content_item_name "><h4>Shop By Department</h4></li>
          
-                        <li className="nav_list"><p>Electroncs</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Electronics</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Computers</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Computers</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Smart Home</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Smart Home</p> <ChevronRightIcon/></li>
          
-                        <li className="nav_list"><p>Arts & Crafts</p> <ChevronRightIcon/></li>
+                        <li className="nav_list" onClick={right_nav_menu}><p>Arts & Crafts</p> <ChevronRightIcon/></li>
          
                             <li className="nav_list seeAllclose2"  onClick={seeAllclick2} ><p>See All</p> <ExpandMoreIcon/> </li>
 

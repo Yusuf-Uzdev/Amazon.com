@@ -58,61 +58,37 @@ function App() {
 
        {     
         id: 3,
-        title : "AmazonBasics",
-        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+        title : "Apple AirPods",
+        image : "https://images-na.ssl-images-amazon.com/images/I/71K8hu-yewL._AC_SL1500_.jpg://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
        },
 
        {     
         id: 4,
         title : "Shop by Catergory",
-        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Fuji_Dash_PD_Nonprime__1x._SY304_CB403084762_.jpg://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
        },
 
        {     
         id: 5,
-        title : "Air pods",
-        image : "hthttps://m.media-amazon.com/images/I/31jBnwWr91L._AC_SL260_.jpgtps://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+        title : "Shop Laptops & Tablets",
+        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg://m.media-amazon.com/images/I/31jBnwWr91L._AC_SL260_.jpgtps://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
        },
 
        {     
         id: 6,
-        title : "AmazonBasics",
-        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+        title : "Explore home bedding",
+        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_HomeBedding_Single_Cat_1x._SY304_CB418596953_.jpg://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
        },
 
        {     
-        
+       
         id: 7,
-        image : "hthttps://m.media-amazon.com/images/I/31jBnwWr91L._AC_SL260_.jpgtps://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
+        title : "Deals & Promotions",
+        image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Deals_1x._SY304_CB430401028_.jpg://m.media-amazon.com/images/I/31jBnwWr91L._AC_SL260_.jpgtps://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
        }
 
   ]
 
-//   const BottomContentImage =
-//  [
-//   {
-//     id: 0,
-//     title : "Get fit at home",
-//     image : "https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_2x._SY608_CB434924743_.jpg"
-//  },
-
-//  {     
-//     id: 1,
-//     title : "Computers and Accessories",
-//     image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
-//  },
-
-//  {     
-//     id: 2,
-//     title : "AmazonBasics",
-//     image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_260x260._SY608_CB442725065_.jpg"
-//  },
-//  {     
-//   id: 3,
-//   title : "AmazonBasics",
-//   image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_WomenFashion_Sweatshirt_Quad_Cat_1x._SY116_CB418609101_.jpg"
-//  }
-//  ]
 
 const AddtoCart =
 [

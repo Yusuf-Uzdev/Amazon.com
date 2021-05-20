@@ -296,7 +296,7 @@
 }
 
 @media screen and (max-width: 1010px) {
-     .Orders, .sign_in_out, .language, .delivery
+     .sign_in_out, .delivery
     {
       display: none;
     }
