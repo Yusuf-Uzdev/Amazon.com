@@ -162,7 +162,7 @@ function Header() {
                 <Link to="/login" className="signLink">
                 <div className="sign_in_out" onMouseEnter={showSignInPart} onMouseLeave={hideSignInPart}>
                     <div className="sign">
-                        <span>Hello,{user?. user?.user?.user? user?.user?.user?.user?.email: "Sign in"}</span>
+                        <span>Hello,{user?.user?.user?.user?user?.user?.user?.user?.email: "Sign in"}</span>
                         <h4>Account&Lists</h4>
                     </div>
                     <ArrowDropDownIcon style={{color: 'gray'}}/>

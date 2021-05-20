@@ -239,7 +239,7 @@ function Nav_shop() {
 
                 <div className="nav_menu_header_container">
                      <AccountCircleIcon id="nav_menu_header_profile-icon"/>
-                      <h2>Hello, {user?. user?.user?.user ? user?.user?.user?.user?.email : "Sign in"}</h2>
+                      <h2>Hello, {user?.user?.user?.user? user?.user?.user?.user?.email: "Sign in"}</h2>
                 </div>
 
             </div>
