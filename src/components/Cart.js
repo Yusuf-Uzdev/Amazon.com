@@ -21,6 +21,7 @@ const Cart = ({allBasketItems}) => {
         
     //     });
     // }
+    console.log(basket)
     return (
        
         <div className="cart_page">
@@ -34,9 +35,9 @@ const Cart = ({allBasketItems}) => {
            
                 <div className="shopping_cart_content">
                 <div className="subtotal">
-           {basket.basket.map((cartitems) => {
+           {basket?.basket.map((cartitems) => {
                 return (
-                    <CartItemz key={cartitems.id} id={cartitems.id} title={cartitems.title} cost={cartitems.cost} color={cartitems.color} image={cartitems.image}/>
+                    <CartItemz id={cartitems.id} title={cartitems.title} cost={cartitems.cost} color={cartitems.color} image={cartitems.image}/>
                 )
             })}
            </div>

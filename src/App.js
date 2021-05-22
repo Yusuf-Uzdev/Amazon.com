@@ -93,16 +93,31 @@ function App() {
 const AddtoCart =
 [
   {
-    id: 0,
+    id: 1,
     title : "Wireless Keyboard and Mouse Combo, TopMate 2.4G Ultra Slim Compact Full Size Quiet Scissor Switch Keyboard and Mice Set for Windows, Mac…",
     cost: 34,
     color: "Color: Silver White",
     image : "https://res.cloudinary.com/webstore/image/fetch/w_450,c_limit,c_fit,f_auto,e_trim/https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1McJSXeL2gK0jSZPhq6yhvXXav%2F2-4G-Wireless-Keyboard-And-Mouse-Multimedia-Mini-Keyboard-Gaming-Mouse-For-Macbook-Lenovo-Laptop-Computer.jpg"
  },
  {     
-  id: 1,
+  id: 2,
   title : "Computers",
   cost: 400,
+  color: "Color: Silver White",
+  image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
+},
+{     
+  id: 3,
+  title : "Computers",
+  cost: 700,
+  color: "Color: Silver White",
+  image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
+},
+{     
+  id: 4,
+  title : "Computers",
+  cost: 600,
+  color: "Color: Silver White",
   image : "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_2x._SY608_CB431800964_.jpg"
 }
 ]
